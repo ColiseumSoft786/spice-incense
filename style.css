@@ -52,3 +52,22 @@ input[type="search"] {
     color: #999898;
     font-style: normal;
 }
+.cart-system ul li
+{
+    list-style-type: none;
+    position: relative;
+}
+.cart-system ul li ul
+{
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+.cart-system ul li:hover ul
+{
+    display: block;
+    margin-left: -252px;
+    z-index: 999999;
+    position: absolute;
+    width: 371px;
+}
