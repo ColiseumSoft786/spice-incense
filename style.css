@@ -27,8 +27,7 @@ input[type="search"] {
 }
 .slide
 {
-    background-image: url("img/slide.jpg");
-    background-repeat: no-repeat;
+    background-color: #ffffff;
 }
 .para
 {
@@ -45,4 +44,11 @@ input[type="search"] {
     color: #3e3d3d;
     font-style: normal;
     font-weight: 400;
+}
+.foot
+{
+    font-size: 12px;
+    font-family: 'Play', sans-serif;
+    color: #999898;
+    font-style: normal;
 }
