@@ -275,3 +275,31 @@ input[type="search"] {
     font-size: 12px;
     text-decoration: none;
 }
+.tab-list
+{
+    color: #373736;
+    font-size: 20px;
+    padding-left: 0px;
+    margin-left: 0px;
+    font-family: 'Oswald', serif;
+}
+.first
+{
+    color: #333333;
+    cursor: pointer;
+}
+.first:hover
+{
+    color: #333333;
+    cursor: pointer;
+}
+.sec
+{
+    color: #333333;
+    cursor: pointer;
+}
+.sec:hover
+{
+    color: #333333;
+    cursor: pointer;
+}
