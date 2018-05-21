@@ -25,6 +25,16 @@ input[type="search"] {
     color: gray;
     /*text-align: -webkit-right;*/
 }
+
+.logo-heading
+{
+    font-size: 17px;
+    font-family: 'Play', sans-serif;
+    color: #ff5c5c;
+    font-style: normal;
+    font-weight: 700;
+}
+
 .slide
 {
     background-color: #ffffff;
@@ -173,5 +183,95 @@ input[type="search"] {
     font-weight: bold;
     color: #ffffff;
     font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+
+.links
+{
+    margin-top: 25px;
+    text-align: left;
+}
+.links a
+{
+    font-size: 11px;
+    font-family: Play, sans-serif;
+    color: rgb(141, 141, 141);
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 7px 0px;
+}
+.links span
+{
+    font-size: 11px;
+    font-family: Play, sans-serif;
+    color: rgb(141, 141, 141);
+    font-style: normal;
+    font-weight: 400;
+    padding: 7px 0px;
+}
+
+.left-img
+{
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.right-detail
+{
+    padding: 0px 10px;
+    margin-top: 10px;
+}
+.right-detail h2
+{
+    padding: 0px;
+    margin: 0px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: #373736;
+    font-style: normal;
+    font-weight: 400;
+}
+.price-tag
+{
+    font-size: 25px;
+    margin-top: 10px;
+}
+.single-pro
+{
+    float: left;
+    color: #000;
+    font-family: 'Oswald', serif;
+    font-weight: bold;
+}
+.add-to-cart
+{
+    color: #ffffff;
+    background-color: #333333;
+    font-family: 'Oswald', serif;
+    margin-top: 0px;
+    border: none;
+    font-weight: bold;
+    padding: 3px 0px;
+}
+.add-to-cart:hover
+{
+    color: #ffffff;
+    background-color: #666767;
+}
+.cat-anchor
+{
+    color: #815207;
+    font-size: 12px;
+    text-decoration: none;
+}
+.cat-line
+{
+    padding: 5px 0px;
+}
+.cat-anchor:hover
+{
+    color: #d98104;
+    font-size: 12px;
     text-decoration: none;
 }
