@@ -303,3 +303,25 @@ input[type="search"] {
     color: #333333;
     cursor: pointer;
 }
+.track-btn
+{
+    color: #fff;
+    background-color: #4f4f4f;
+    padding: 8px 15px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Oswald';
+    font-weight: normal;
+    text-transform: uppercase;
+    border: 0px;
+    line-height: normal;
+    box-sizing: border-box;
+}
+.main-heading
+{
+    font-size: 18px;
+    text-transform: uppercase;
+    float: left;
+    padding-bottom: 5px;
+    margin: 0px;
+}
