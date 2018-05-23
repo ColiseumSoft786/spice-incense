@@ -2,6 +2,25 @@
 {
     padding: 0px;
 }
+.myaccount
+{
+    color: #876e6e;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    float: right;
+    padding: 3px 7px;
+    text-decoration: none;
+}
+.myaccount:hover
+{
+    color: #c58408;
+    font-size: 14px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+}
 .logo-text
 {
     padding: 0px;
@@ -324,4 +343,89 @@ input[type="search"] {
     float: left;
     padding-bottom: 5px;
     margin: 0px;
+}
+.loginbtn
+{
+    color: #fff;
+    background-color: #4f4f4f;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Oswald';
+    padding: 5px 20px;
+    border: none;
+}
+.loginbtn:hover
+{
+    color: #fff;
+    background-color: #4f4f4f;
+    box-sizing: border-box;
+}
+.lost-pass
+{
+    color: #995d08;
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.cartbtn
+{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    color: #373736;
+    font-style: normal;
+    font-weight: 700;
+}
+.cartbtn:hover
+{
+    text-decoration: none;
+    color: #995d08;
+}
+.cartbtn1
+{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+    color: #373736;
+    font-style: normal;
+    font-weight: 700;
+}
+.cartbtn1:hover
+{
+    text-decoration: none;
+    color: #995d08;
+}
+.cart-right
+{
+    width: 70%;
+    float: right;
+    font-weight: 600;
+    height: 20px;
+    padding: 15px 0px;
+    margin-top: 30px;
+}
+.left-cart
+{
+    color: #ffffff;
+    background: #333333;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+.left-cart:hover
+{
+    color: #ffffff;
+    text-decoration: none;
+    background: #828282;
+}
+.left-cart1
+{
+    color: #ffffff;
+    background: #c58408;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+}
+.left-cart1:hover
+{
+    color: #ffffff;
+    text-decoration: none;
+    background: #e79c0c;
 }
