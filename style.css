@@ -429,3 +429,84 @@ input[type="search"] {
     text-decoration: none;
     background: #e79c0c;
 }
+.updatecart
+{
+    color: #ffffff;
+    background: #333333;
+    padding: 8px 15px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+.updatecart:hover
+{
+    color: #ffffff;
+    text-decoration: none;
+    background: #828282;
+}
+.checkout
+{
+    color: #ffffff;
+    background: #333333;
+    padding: 8px 15px;
+    font-size: 12px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+.checkout:hover
+{
+    color: #ffffff;
+    text-decoration: none;
+    background: #828282;
+}
+.data
+{
+    width:100%;
+    border: 1px solid coral;
+    margin: 0 auto;
+    padding: 3px;
+}
+.top-heading-cart
+{
+    text-align: left;
+    margin-top: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.cart-data
+{
+    padding: 20px;
+    font-size: 14px;
+    font-family: 'Play', sans-serif;
+    color: #747373;
+    font-style: normal;
+}
+.play-security
+{
+    font-size: 14px;
+    font-family: 'Play', sans-serif;
+    color: #747373;
+    font-style: normal;
+    font-weight: 400;
+    padding: 6px 0px;
+    line-height: 1.8;
+}
+.register-btn1
+{
+    color: #fff;
+    background-color: #4f4f4f;
+    padding: 8px 15px;
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Oswald';
+    font-weight: normal;
+    text-transform: uppercase;
+    border: 0px;
+    line-height: normal;
+    box-sizing: border-box;
+}
+.register-btn1:hover
+{
+    background: #747373;
+}

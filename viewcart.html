@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
 </head>
 <body style="background-color: lightgray;">
@@ -161,36 +160,18 @@
                     <div class="clearfix"></div>
                 </div>
                 <div class="clearfix"></div>
-        </div>
-
-
+            </div>
 
 
 
             <div class="clearfix"></div>
             <!--slider image area-->
-            <div class="wrap" style="width: 94%; text-align: center; margin: 0 auto; background-color: #ffffff;">
-                <div class="main" style="width: 96%; margin:0 auto; padding-top: 1px;">
+            <div class="wrap" style="width: 94%; padding-top: 1px; text-align: center; margin: 0 auto; background-color: #ffffff;">
+                <div class="main" style="width: 96%; margin:0 auto;">
                     <div style="border: 2px solid #e0dfdf; margin-top: 3px;"></div>
                     <div style="border-top: 1px solid #e0dfdf; margin-top: 3px;"></div>
                     <div style="border-top: 1px solid #e0dfdf; margin-top: 3px;"></div>
                     <div style="border-top: 1px solid #e0dfdf; margin-top: 3px;"></div>
-
-                    <div class="links">
-                        <div class="col-md-9" style="margin: 0px; padding: 5px 0px; border-bottom: 1px solid #e0dfdf;">
-                            <h1 class="main-heading">Kratom Products</h1>
-                            <div class="clearfix"></div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="col-md-9" style="margin: 0px; padding: 8px 0px;">
-                            <a href="">Home</a> <span>/ Kratom Products</span>
-                        </div>
-                        <div class="col-md-3">
-                            <span class="pull-right"><a href="" style="font-weight: 600;color: #BDBDBD">< BACK TO SHOP</a></span>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-
                 </div>
             </div>
             <!--slider image area-->
@@ -201,22 +182,78 @@
                 <div class="main" style="width: 96%; margin: 0 auto;">
                     <div class="col-md-12" style="margin-top: 25px;">
                         <div class="col-md-9" style="padding-left: 0px;">
+                            
+                            <div style="width: 100%;">
+                                <form action="">
+                                    <table class="table table-responsive">
+                                        <thead>
+                                        <tr>
+                                            <th style="text-align: center;"></th>
+                                            <th style="text-align: center;"></th>
+                                            <th style="text-align: center;">Product</th>
+                                            <th style="text-align: center;">Price</th>
+                                            <th style="text-align: center;">Quantity</th>
+                                            <th style="text-align: center;">Total</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <tr style="text-align: center;">
+                                            <td style="width: 10%; color: #7e8183;"><div><span class="glyphicon glyphicon-remove-sign"></span></div></td>
+                                            <td style="width: 10%; color: #7e8183;"><div><a href=""><img src="img/cart.jpg" style="width: 100%;" alt=""></a></div></td>
+                                            <td style="width: 25%; color: #7e8183;"><div>Product</div></td>
+                                            <td style="width: 15%; color: #7e8183;"><div>Price</div></td>
+                                            <td style="width: 25%; color: #7e8183;">
+                                                <div>
+                                                    <input type="button" value="-" style="width: 25%; float: left;">
+                                                    <input style="width:50%; text-align: center; float: left;" type="number" min="1" max="" name="" value="1" title="Qty">
+                                                    <input type="button" style="width: 25%; float: left;" value="+" class="single-pro">
+                                                </div>
+                                            </td>
+                                            <td style="width: 15%; color: #7e8183;"><div>Total</div></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
 
+                                    <div style="text-align: right; padding: 10px 0px; border-top: 1px solid #7e8183;">
+                                        <input class="updatecart" type="submit" value="UPDATE CART">
+                                        <a class="checkout" href=""><span class="glyphicon glyphicon-shopping-cart"></span> PROCEED TO CHECKOUT</a>
+                                    </div>
 
-                            <!--top bottom padding div-->
-                            <div style="padding: 0px 0px;"></div>
-                            <!--top bottom padding div-->
+                                </form>
 
+                                <div class="col-md-12">
+                                    <div class="col-md-4"></div>
+                                    <div class="col-md-8" style="border: 1px solid #F39501; padding: 2px; margin: 0px;">
+                                        <div class="data">
+                                            <div class="top-heading-cart">
+                                                <span class="glyphicon glyphicon-shopping-cart"></span>
+                                                CART TOTALS
+                                            </div>
+                                            <div class="cart-data">
+                                                <div style="width: 50%; float: left;">Cart Subtotal</div>
+                                                <div style="width: 50%; text-align: right; float: left;">$49.99</div>
+                                            </div>
+                                            <div class="cart-data">
+                                                <div style="width: 50%; float: left;">Shipping</div>
+                                                <div style="width: 50%; text-align: right; float: left;">Free Shipping</div>
+                                            </div>
+                                            <div class="cart-data">
+                                                <div style="width: 50%; float: left;">Order Total</div>
+                                                <div style="width: 50%; text-align: right; float: left;">$49.99</div>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                            <div class="col-md-12">
-                                <p class="para" style="background: #f7f6f7; padding: 20px 10px;-webkit-box-shadow:0 1px 2px 0 rgba(0,0,0,0.25); border-radius:2px;text-shadow: 0 1px 0 #ffffff;list-style: none outside;">No products were found matching your selection.</p>
+                                <div class="col-md-12 play-security">
+                                    PAYMENT SECURITY
+                                </div>
+                                <div class="col-md-12 play-security" style="margin-bottom: 20px;">
+                                    With respect to security: We always use industry standard encryption technologies when transferring and receiving consumer data exchanged with our site, We have appropriate security measures in place in our physical facilities to protect against the loss, misuse or alteration of information that we have collected from you at our site.
+                                </div>
+
                             </div>
-
-
-                            <!--top bottom padding div-->
-                            <div style="padding: 20px 0px;"></div>
-                            <!--top bottom padding div-->
-
 
                         </div>
                         <!--left side bar end-->
